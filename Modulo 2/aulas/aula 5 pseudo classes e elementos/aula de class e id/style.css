@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(166, 255, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(30, 107, 49);
+}
+
+#principal{ /*Para usar a tag id no CSS, basta colocar o # na frente da palavra chave*/
+    text-align: center;
+    background-color: white;
+}
+h2{
+    color:rgb(5, 66, 20);
+}
+.basico{
+    color: rgb(29, 236, 10);
+}
+.intermediario{
+    color: rgb(165, 165, 4);
+}
+.avancado{
+    color: red;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas para fontes
+                Medidas Absolutas:
+                    cm, mm, in(Polegada), px, pt(ponto) e pc.
+                Medidas Relativas:
+                    em(altura do M maiúsculo), ex(altura X), rem, vw(View Widht), vh(View height), %.
+            
+                16x geralmente equivale a 1em
+                A recomendação é sempre usar ou (em) ou (px) para fontes.
+            */
+            font-size: 1em;
+            /* O (comando font-weight: ;), tem a função de definir o peso da fonte(a espessura da letra).
+                Pesos literais:
+                    lighter(magrinho ou leve), normal, bold, bolder
+        
+            font-weight: normal;
+            font-style:normal;       Comandos para formatação de texto.
+            text-decoration:none;  
+            */
+        }
+        h1{
+            /* Modo convencional 
+           font-family: sans-serif;
+           font-weight: bolder;
+           font-size: 3em;
+           font-style: italic;
+           */
+           /* shorthand font - Metodo para enserir as 4 formatações de font acima, em uma linha.
+           Sequência de declaração: font-style -> font-weight -> font-size -> font-family.
+           */
+           font: italic bolder 3em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dicta modi est, illum iste a necessitatibus fugiat, 
+        perferendis aliquam impedit ipsa, ullam voluptate distinctio quo 
+        obcaecati consequatur laboriosam nemo amet rem!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dicta modi est, illum iste a necessitatibus fugiat, 
+        perferendis aliquam impedit ipsa, ullam voluptate distinctio quo 
+        obcaecati consequatur laboriosam nemo amet rem!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dicta modi est, illum iste a necessitatibus fugiat, 
+        perferendis aliquam impedit ipsa, ullam voluptate distinctio quo 
+        obcaecati consequatur laboriosam nemo amet rem!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dicta modi est, illum iste a necessitatibus fugiat, 
+        perferendis aliquam impedit ipsa, ullam voluptate distinctio quo 
+        obcaecati consequatur laboriosam nemo amet rem!
+    </p>
+    
+</body>
+</html>
